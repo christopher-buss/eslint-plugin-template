@@ -1,6 +1,6 @@
 {
-	"name": "eslint-plugin-template",
-	"version": "1.0.0",
+	"name": "eslint-plugin-template-placeholder",
+	"version": "0.0.0",
 	"description": "Your ESLint plugin description",
 	"keywords": ["eslint", "eslint-plugin", "typescript-eslint"],
 	"homepage": "https://github.com/christopher-buss/eslint-plugin-template#readme",
@@ -27,6 +27,7 @@
 		"eslint-docs": "eslint-doc-generator",
 		"posteslint-docs": "nr lint --cache --fix \"**/*.md\"",
 		"lint": "eslint --cache",
+		"lint:ci": "eslint --cache --cache-strategy content",
 		"prepublishOnly": "nr build",
 		"release": "bumpp",
 		"start": "tsx src/index.ts",
@@ -37,7 +38,7 @@
 		"pre-commit": "pnpm i --frozen-lockfile --ignore-scripts --offline && npx lint-staged"
 	},
 	"lint-staged": {
-		"*": "eslint --fix"
+		"*": "eslint --fix --cache"
 	},
 	"dependencies": {
 		"@typescript-eslint/utils": "catalog:cli"
