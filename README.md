@@ -183,10 +183,13 @@ to your needs and replace the badges and links.
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/eslint-plugin-template
-[npm-version-href]: https://npmjs.com/package/eslint-plugin-template
-[npm-downloads-src]: https://img.shields.io/npm/dm/eslint-plugin-template
-[npm-downloads-href]: https://npmjs.com/package/eslint-plugin-template
+[npm-version-src]:
+	https://img.shields.io/npm/v/eslint-plugin-template-placeholder
+[npm-version-href]: https://npmjs.com/package/eslint-plugin-template-placeholder
+[npm-downloads-src]:
+	https://img.shields.io/npm/dm/eslint-plugin-template-placeholder
+[npm-downloads-href]:
+	https://npmjs.com/package/eslint-plugin-template-placeholder
 [license-src]:
 	https://img.shields.io/github/license/christopher-buss/eslint-plugin-template.svg
 [license-href]: ./LICENSE
