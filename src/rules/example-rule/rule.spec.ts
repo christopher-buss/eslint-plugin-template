@@ -18,7 +18,7 @@ const invalid: Array<InvalidTestCase> = [
 	// Code snippets that should FAIL
 	{
 		code: `// Invalid code example
-		const y = 2;`,
+		const bad = 2;`,
 		errors: [{ messageId }], // Ensure messageId matches the one reported by the rule
 		// Optional: For fixable rules, check the output after applying the fix
 		/*

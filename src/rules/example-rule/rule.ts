@@ -22,7 +22,6 @@ function create(context: Readonly<TSESLint.RuleContext<string, []>>): TSESLint.R
 	return {
 		// Visitor pattern: Select nodes to visit
 		// Example: Visiting Identifier nodes
-		/*
 		Identifier(node: TSESTree.Identifier) {
 			// Rule logic here
 			if (node.name === "bad") {
@@ -34,14 +33,13 @@ function create(context: Readonly<TSESLint.RuleContext<string, []>>): TSESLint.R
 				});
 			}
 		},
-		*/
 	};
 }
 
 export const exampleRule = createEslintRule({
 	create,
 	defaultOptions: [],
-	meta: { 
+	meta: {
 		docs: {
 			description: "Brief description of the rule's purpose",
 			recommended: false, // Or true if recommended
