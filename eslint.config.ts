@@ -9,7 +9,6 @@ export default isentinel(
 			"max-lines": "off",
 			"max-lines-per-function": "off",
 		},
-		test: false,
 		type: "package",
 	},
 	{
