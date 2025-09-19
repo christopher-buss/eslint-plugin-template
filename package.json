@@ -17,8 +17,9 @@
 		".": "./dist/index.mjs",
 		"./package.json": "./package.json"
 	},
-	"main": "./dist/src/index.mjs",
-	"types": "./dist/src/index.d.mts",
+	"main": "./dist/index.mjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.mts",
 	"files": ["dist"],
 	"scripts": {
 		"build": "tsdown --clean --dts",
